@@ -6,10 +6,13 @@ This repository contains my solutions to various Leetcode problems. Each solutio
 
 ## Progress
 
-Easy: 
-Medium:
-Hard:
-Total:
+- Easy: 
+
+- Medium: 
+
+- Hard: 
+
+- Total: 
 
 | Problem Number | Title | Difficulty |
 |----------------|-------|------------|
