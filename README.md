@@ -6,7 +6,7 @@ This repository contains my solutions to various Leetcode problems. Each solutio
 
 ## Progress
 
-- Easy: 72
+### Easy: 72
 
 | Problem Number | Title | Topics |
 |----------------|-------|--------|
@@ -83,7 +83,7 @@ This repository contains my solutions to various Leetcode problems. Each solutio
 | 2739           | [Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/) | SQL |
 | 2886           | [Change Data Type](https://leetcode.com/problems/change-data-type/) | SQL |
 
-- Medium: 19
+### Medium: 19
 
 | Problem Number | Title | Topics |
 |----------------|-------|--------|
@@ -107,7 +107,7 @@ This repository contains my solutions to various Leetcode problems. Each solutio
 | 1679           | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | Array, Hash Table, Two Pointers |
 | 3111           | [Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/) | Array, Greedy, Sorting |
 
-- Hard: 1
+### Hard: 1
 
 | Problem Number | Title | Topics |
 |----------------|-------|--------|
