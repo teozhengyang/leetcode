@@ -1,1 +1,1 @@
-1. Two Sums
+1. Two Sums: store elements for faster lookup of possible complements
