@@ -17,3 +17,4 @@ This repository contains my solutions to various Leetcode problems. Each solutio
 | Problem Number | Title | Difficulty | Topics |
 |----------------|-------|------------|--------|
 | 1              | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy       | Arrays, Hash Table |
+| 9             | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy       | Math |
