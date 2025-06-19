@@ -6,13 +6,14 @@ This repository contains my solutions to various Leetcode problems. Each solutio
 
 ## Progress
 
-- Easy: 
+- Easy: 72
 
-- Medium: 
+- Medium: 19
 
-- Hard: 
+- Hard: 1
 
-- Total: 
+- Total: 92
 
-| Problem Number | Title | Difficulty |
-|----------------|-------|------------|
+| Problem Number | Title | Difficulty | Topics |
+|----------------|-------|------------|--------|
+| 1              | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy       | Arrays, Hash Table |
