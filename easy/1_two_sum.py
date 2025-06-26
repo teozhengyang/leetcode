@@ -1,14 +1,15 @@
 from typing import List
 
-# loop through the list and use a dictionary to store the indices of the numbers
-# if the complement of the current number (target - num) is already in the dictionary,
-# return the indices of the current number and its complement
 def twoSum(self, nums: List[int], target: int) -> List[int]:
+    # create a dictionary to store visited numbers and their indices
     visited = {}
+    # iterate through the list of numbers
     for i, num in enumerate(nums):
         complement = target - num
+        # if the complement is found in visited, return the indices
         if complement in visited:
             return visited[complement], i
-        else:
+        # if the complement is not found, add the number and its index to visited
+        else: 
             visited[num] = i
               
