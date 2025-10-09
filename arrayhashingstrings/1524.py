@@ -12,11 +12,11 @@ class Solution:
         
         for num in arr:
             prefix += num
-            # add number of odd subarrays ending at current index for even prefix
+            # add number of odd subarrays ending at current index for even prefix (even - odd = odd)
             if prefix % 2 == 0:
                 result += odd
                 even += 1
-            # odd number of even subarrays ending at current index for odd prefix
+            # odd number of even subarrays ending at current index for odd prefix (odd - even = odd)
             else:
                 result += even
                 odd += 1
