@@ -61,3 +61,12 @@ for right in range(len(nums)):
 | “Merge sorted arrays / lists / intervals”                           | **Merge Pattern**                          | Traverse both lists with pointers, append smaller                             | Merge Two Sorted Lists, Merge Intervals                     |
 | “Partition by condition (odd/even, color, sign)”                    | **Opposite Ends or Slow–Fast Variant**     | Move pointers until misaligned values found, then swap                        | Dutch National Flag, Sort Array by Parity                   |
 | “Find kth element / median of sorted arrays”                        | **Binary Partition (Two-pointer variant)** | Move boundaries toward median using conditions                                | Median of Two Sorted Arrays                                 |
+
+
+# Questions
+
+- [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+- [15. 3Sum](https://leetcode.com/problems/3sum/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
+- [1968. Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)
+- [2161. Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)
