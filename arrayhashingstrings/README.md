@@ -13,6 +13,19 @@ def prefix_sum(arr):
 ```
 
 ```
+# variables
+counter = {}
+prefix_sum = 0
+result = 0
+
+for num in arr:
+    prefix_sum += num
+    # process result based on condition
+    # update counter
+
+```
+
+```
 def suffix_sum(arr):
     n = len(arr)
     suffix = [0] * (n + 1)
