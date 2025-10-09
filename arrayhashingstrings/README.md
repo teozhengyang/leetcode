@@ -127,3 +127,13 @@ for k, v in freq.items():
 | “Rearranged / permutation equality” | Anagram             | Frequency map or sorted        |
 | “Mirror / symmetric / reverse”      | Palindrome          | Two pointers                   |
 | “Find range or prefix condition”    | Prefix/suffix sums  | Running total or map of prefix |
+
+# Questions
+
+- [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
+- [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+- [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+- [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)
+- [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)
+- [2780. Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/)
