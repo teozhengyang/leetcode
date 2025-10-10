@@ -51,3 +51,11 @@ for right in range(k, len(arr)):
 | “contains all chars of X” / “anagram” | Variable-length | Expand until valid, shrink to minimize        | Minimum Window Substring / Find All Anagrams   |
 | “max/min in window”                   | Fixed-length    | Use deque for fast min/max                    | Sliding Window Maximum                         |
 | “count subarrays that…”               | Variable-length | Expand and count windows satisfying condition | Subarrays with K Different Integers            |
+
+# Questions
+
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+- [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)
+- [1358. Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)
