@@ -29,6 +29,18 @@ for right in range(k, len(arr)):
     max_sum = max(max_sum, window_sum)
 ```
 
+```
+# initialise map/list to track window elements
+# initialise left pointer
+# initialise result
+
+# loop through right pointer
+    # update map/list with arr[right]
+    # while window is invalid
+        # update map/list by removing arr[left]
+        # move left pointer
+```
+
 | **Question Mentions / Keywords**      | **Window Type** | **Movement Logic**                            | **Example Problem**                            |
 | ------------------------------------- | --------------- | --------------------------------------------- | ---------------------------------------------- |
 | “subarray/substring” + “longest”      | Variable-length | Expand right, shrink left when invalid        | Longest Substring Without Repeating Characters |
