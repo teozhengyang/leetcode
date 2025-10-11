@@ -5,21 +5,26 @@ from typing import List
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []
+
         for token in tokens:
-            if token.startswith('-') and len(token) > 1:
-                stack.append(int(token[1:]) * -1)
-            elif token.isdigit():
+            # append numbers
+            if token.isdigit():
                 stack.append(int(token))
+            elif token.startswith('-') and token[1:].isdigit():
+                stack.append(int(token[1:]) * -1)
+            # perform operations
             else:
-                second_operand = stack.pop()
-                first_operand = stack.pop()
+                second_num = stack.pop()
+                first_num = stack.pop()
+                result = None
                 if token == '+':
-                    stack.append(first_operand + second_operand)
+                    result = first_num + second_num
                 elif token == '-':
-                    stack.append(first_operand - second_operand)    
+                    result = first_num - second_num
                 elif token == '*':
-                    stack.append(first_operand * second_operand)
+                    result = first_num * second_num
                 else:
-                    stack.append(int(first_operand / second_operand))
+                    result = int(first_num / second_num)
+                stack.append(result)
         
         return stack[0]
