@@ -49,3 +49,9 @@ return stack[-1]
 | “Asteroids”, “Collide”, “Buildings”  | Simulation / collision stack | Pop until resolved or append                                   | Asteroid Collision (LC 735)               |
 | “Histogram”, “Largest Rectangle”     | Monotonic increasing stack   | Pop when height decreases; compute width on pop                | Largest Rectangle in Histogram (LC 84)    |
 | “Next/Previous element pattern”      | Monotonic stack              | Track indices for efficient range calculations                 | Trapping Rain Water (LC 42)               |
+
+# Questions
+
+- [71. Simplify Path](https://leetcode.com/problems/simplify-path) 
+- [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
+- [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
