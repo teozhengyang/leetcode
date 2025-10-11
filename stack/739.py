@@ -1,12 +1,11 @@
 # https://leetcode.com/problems/daily-temperatures/
 
 from typing import List
-from collections import deque
 
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         answer = [0] * len(temperatures)
-        stack = deque()
+        stack = []
 
         for i in range(len(temperatures)):
             # track current temperature
