@@ -7,22 +7,15 @@ class Solution:
 
         for directory in directories:
             directory.replace('/', "")
-            # handle '..'
             if directory == "..":
                 if stack:
                     stack.pop()
-            # handle '.'
-            elif directory == ".":
+            elif directory == "." or not directory:
                 continue
-            # handle normal directory
             else:
-                if len(directory) > 0:
-                    stack.append(directory)
+                stack.append(directory)
         
         if not stack:
             return "/"
-        result = ""
-        while stack:
-            result = "/" + stack.pop() + result
-        return result
+        return "/" + "/".join(stack)
         
